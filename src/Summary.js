@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './index.css';
 import './App.css';
 
-export default class Summary extends Component {
+export default class Summary extends React.Component {
   render(){
     return(
       Object.keys(this.props.selected).map(key => {
